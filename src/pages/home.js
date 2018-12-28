@@ -9,13 +9,14 @@ class HomePage extends React.Component{
 	return(
 	    <div>
 	    	<section id="cardHome">
-	    		<h1 id="white">Austin George</h1>
+	    		<h1 id="title">Austin George</h1>
+	    		<img src="austin.JPG" alt="Portrait"/>
 	    	</section>
 	    	<section id="cardAbout">
-	    		<h1 id="white">About Section</h1>
+	    		<h1 id="title">About Section</h1><h1>Bob</h1>
 	    	</section>
 	    	<section id="cardPortfolio">
-	    		<h1 id="white">Portfolio Section</h1>
+	    		<h1>Portfolio Section</h1>
 	    	</section>
 
 
