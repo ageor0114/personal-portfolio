@@ -10,6 +10,8 @@ import Snackbar from '@material-ui/core/Snackbar';
 import { Link } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+//Problem: Bar is not fully sticky
+
 class Header extends React.Component{
     constructor(props){
 	super(props);
@@ -17,7 +19,6 @@ class Header extends React.Component{
 	}
     }
 
-    
     render(){
 	return(
 	    <div id="fullBar">
