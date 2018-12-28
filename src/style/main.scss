@@ -13,6 +13,11 @@ body{
 	witdh: 100%;
 }
 
+img{
+	width: 45vw;
+	height: 30vw;
+}
+
 #title{
 	font-family: Libre Franklin,sans-serif;
 	font-weight: bolder;
@@ -29,7 +34,6 @@ body{
 
 #inline{
 	display: inline-block;
-	border-radius:250px;
 }
 
 a{
