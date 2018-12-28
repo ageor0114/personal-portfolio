@@ -27,6 +27,11 @@ body{
 	color:#24323f;
 }
 
+#inline{
+	display: inline-block;
+	border-radius:250px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -47,6 +52,10 @@ header a {
 
 header a{
 	float: right;
+}
+
+#vertical{
+	display: inline-block;
 }
 
 #fullBar{
