@@ -1,8 +1,73 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
 #container{
     margin-top: 5rem;
+    width: 100%;
+
+}
+
+body{
+	witdh: 100%;
+}
+
+#white{
+	color:white;
 }
 
 a{
     text-decoration: none;
     color: inherit;
+}
+
+/*header a, header a:hover {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+header a {
+    float: right;
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    display:inline-block;
+}*/
+
+header a{
+	float: right;
+}
+
+#fullBar{
+}
+#bar{
+	font-family: Libre Franklin,sans-serif;
+	font-weight: bolder;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#cardHome{
+	padding-top: 50px;
+	background: black;
+	width: 100%;
+	height: 100vh;
+}
+
+#cardAbout{
+	padding-top: 50px;
+	background:#051A23;
+	width: 100%;
+	height: 100vh;
+}
+
+#cardPortfolio{
+	padding-top: 50px;
+	background:black;
+	width: 100%;
+	height: 100vh;
 }
