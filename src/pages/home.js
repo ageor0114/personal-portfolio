@@ -16,18 +16,21 @@ class HomePage extends React.Component{
 	    			<br/>
 	    			<h1 id="title">Austin George</h1>
 	    			<br/>
-	    			<Button size="large" variant="outlined" target="_blank" href="personal-portfolio/src/pages/Austin George - Resume.pdf">See Resume</Button>
+	    			<Button size="large" variant="outlined" target="_blank" href="https://austingeorgeportfolio.files.wordpress.com/2018/12/Austin-George-Resume.pdf">See Resume</Button>
 	    		</center>
-	    		{/*<div id="vertical">
-	    			<center><h1 id="title">Austin George</h1></center>
-	    			<center><Button variant="outlined" target="_blank" href="https://drive.google.com/open?id=13rWCcGhvS5dPUpJBb3hGSH_SZG5ykmHJdMmNW2BqXbw">See Resume</Button></center>
-	    		</div>*/}
 	    	</section>
 	    	<section id="cardAbout">
-	    		<h1 id="title">About Section</h1>
+	    		<center><h1 id="title">About Section</h1></center>
+	    		<p id="bar">Austin is an ambitious, creative, and hardworking student that is always seeking to create. Be it painting or coding, he gravitates towards mediums that allow him to express himself.</p>
 	    	</section>
 	    	<section id="cardPortfolio">
 	    		<h1>Portfolio Section</h1>
+	    	</section>
+	    	<section id="cardCSPortfolio">
+	    		<h1 id="title">Computer Science</h1>
+	    	</section>
+	    	<section id="cardArtPortfolio">
+	    		<h1 id="title">Art</h1>
 	    	</section>
 	    </div>
 	)
