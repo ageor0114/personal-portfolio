@@ -58,10 +58,11 @@ class Header extends React.Component{
          			<DropdownItem onClick={this.toggle}>Custom 2</DropdownItem>
 				</DropdownMenu>
 				</Dropdown>*/}
-				<AnchorLink id="bar" href='#cardPortfolio'>Portfolio</AnchorLink>
-	    		<AnchorLink id="bar" href='#cardAbout'>About</AnchorLink>
+
+				{/*<AnchorLink id="bar" href='#cardPortfolio'>Portfolio</AnchorLink>
+	    		<AnchorLink id="bar" href='#cardAbout'>About</AnchorLink>*/}
 	    		<AnchorLink id="bar" href="#cardHome">Home</AnchorLink>
-	    		<p id="bar"><a href="https://drive.google.com/open?id=13rWCcGhvS5dPUpJBb3hGSH_SZG5ykmHJdMmNW2BqXbw" target="_blank">Resume</a></p>
+	    		<p id="bar"><a href="https://austingeorgefiles.files.wordpress.com/2019/07/austin-george-resume.pdf" target="_blank">Resume</a></p>
 	    		
 	    	</p>
 	    	</div>
